@@ -5,12 +5,16 @@ JSONPlaceHolder RESTful Web API to perform operations
 
 # Instructions on how to run the app locally
 Clone project from GitHub or download zip file and unzip
+
 Run npm install
+
 Run npm start to start the project
+
 Go on http://localhost:3000/
 
 # To test project
 Run npm install
+
 Run npm test
 
 # Overview of the project
