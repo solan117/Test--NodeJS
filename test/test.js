@@ -2,9 +2,10 @@ const app = require("../app");
 const Post = require("../model/post.model");
 const mongoose = require("mongoose");
 const supertest = require("supertest");
+url = "mongodb+srv://karan:Karan9896@cluster0.o6gdt.mongodb.net/test";
 
 beforeAll((done) => {
-  mongoose.connect("mongodb://localhost:27017/test",
+  mongoose.connect(url,
     { useNewUrlParser: true, useUnifiedTopology: true },
     () => done());
 });
